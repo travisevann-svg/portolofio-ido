@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Siswa | Kelas XII</title>
-    <link rel="stylesheet" href="../Assets/css/style.css">
-    
-    <!-- Simulasi pemanggilan file external: <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="Assets/css/style.css">
     
 </head>
 <body>
@@ -15,7 +13,7 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#beranda" class="brand-logo">TRav.Dev</a>
+                <a href="index.html" class="brand-logo">TRav.Dev</a>
                 
                 <!-- Tombol Menu Mobile -->
                 <div class="menu-toggle" id="mobile-menu">
@@ -25,11 +23,11 @@
                 </div>
 
                 <ul class="nav-links" id="nav-list">
-                    <li><a href="#beranda" class="nav-link active-link">Beranda</a></li>
-                    <li><a href="#tentang" class="nav-link">Tentang Saya</a></li>
-                    <li><a href="#jaringan" class="nav-link">Pencapaian</a></li>
-                    <li><a href="#iot" class="nav-link">Karier</a></li>
-                    <li><a href="#proyek" class="nav-link">Riwayat Pendidikan</a></li>
+                    <li><a href="index.html" class="nav-link active-link">Beranda</a></li>
+                    <li><a href="pages/tentang.html" class="nav-link">Tentang Saya</a></li>
+                    <li><a href="pages/pencapaian.html" class="nav-link">Pencapaian</a></li>
+                    <li><a href="pages/karier.html" class="nav-link">Karier</a></li>
+                    <li><a href="pages/pendidikan.html" class="nav-link">Riwayat Pendidikan</a></li>
                 </ul>
             </nav>
         </div>
@@ -49,7 +47,7 @@
                     <p class="hero-subtitle">presiden Indonesia ke-3.</p>
                     
                     <div class="hero-buttons">
-                        <a href="#jaringan" class="btn">Lihat Pencapaian Saya</a>
+                        <a href="pages/pencapaian.html" class="btn">Lihat Pencapaian Saya</a>
                     </div>
 
                     <div class="skills-container">
@@ -60,146 +58,10 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <!-- Placeholder untuk assets/img/profil.jpg -->
-                    <img src="../Assets/img/presiden ke 3.jpg" alt="Foto Profil Travis">
+                    <img src="Assets/img/presiden ke 3.jpg" alt="Foto Bacharuddin Jusuf Habibie">
                 </div>
             </div>
         </section>
-
-        <!-- =========================================
-             HALAMAN TENTANG SAYA (pages/tentang.html)
-             ========================================= -->
-        <section id="tentang" class="section container">
-            <h2 class="section-title">Tentang Saya</h2>
-            
-            <div class="about-grid">
-                <!-- Biodata Card -->
-                <article class="biodata-card">
-                    <h3 style="margin-bottom: 20px; color: var(--primary-color);">Biodata Diri</h3>
-                    <table class="biodata-table">
-                        <tr>
-                            <td>Nama Lengkap</td>
-                            <td>Bacharuddin Jusuf Habibie</td>
-                        </tr>
-                        <tr>
-                            <td>Tempat, Tgl Lahir</td>
-                            <td>Parepare, 25 Juni 1936</td>
-                        </tr>
-                        <tr>
-                            <td>Lulusan</td>
-                            <td>Teknik penerbangan</td>
-                        </tr>
-                    </table>
-                </article>
-
-                <!-- Galeri Aktivitas Belajar -->
-                <article class="gallery-card">
-                    <h3 style="margin-bottom: 20px; color: var(--primary-color);">Galeri Aktivitas Belajar</h3>
-                    <p class="card-desc">Dokumentasi kegiatan selama praktikum di laboratorium komputer sekolah.</p>
-                    <div class="gallery-grid">
-                        <img src="https://placehold.co/300x200/A5A58D/FFFFFF?text=Praktek+Jaringan" alt="Praktikum Jaringan">
-                        <img src="https://placehold.co/300x200/A5A58D/FFFFFF?text=Coding+Lab" alt="Praktikum Coding">
-                        <img src="https://placehold.co/300x200/A5A58D/FFFFFF?text=Rakit+PC" alt="Praktikum Rakit PC">
-                        <img src="https://placehold.co/300x200/A5A58D/FFFFFF?text=Presentasi" alt="Presentasi Proyek">
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- =========================================
-             HALAMAN PENCAPAIAN / JARINGAN (pages/jaringan.html)
-             ========================================= -->
-        <section id="jaringan" class="section container">
-            <h2 class="section-title">Modul Jaringan Komputer</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: var(--text-light);">
-                Kumpulan tugas dan pencapaian kompetensi dasar jaringan.
-            </p>
-
-            <div class="card-grid">
-                <article class="module-card">
-                    <div class="card-img-placeholder">Topologi Cisco Packet Tracer</div>
-                    <div class="card-content">
-                        <h3 class="card-title">Simulasi Jaringan LAN</h3>
-                        <p class="card-desc">Dokumentasi pembuatan topologi star menggunakan 1 Switch dan 4 PC dengan konfigurasi IP Static.</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Lihat Laporan</a>
-                    </div>
-                </article>
-
-                <article class="module-card">
-                    <div class="card-img-placeholder">Konfigurasi IP & Subnetting</div>
-                    <div class="card-content">
-                        <h3 class="card-title">Analisis Subnetting IPv4</h3>
-                        <p class="card-desc">Lembar kerja perhitungan subnet mask, network ID, dan broadcast address untuk kelas C.</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Lihat Laporan</a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- =========================================
-             HALAMAN KARIER / IoT (pages/iot-arduino.html)
-             ========================================= -->
-        <section id="iot" class="section container">
-            <h2 class="section-title">Modul Internet of Things (IoT)</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: var(--text-light);">
-                Persiapan karier melalui rekayasa perangkat keras dan mikrokontroler.
-            </p>
-
-            <div class="card-grid">
-                <article class="module-card">
-                    <div class="card-img-placeholder" style="background-color: var(--primary-color);">Sirkuit LED Berjalan</div>
-                    <div class="card-content">
-                        <h3 class="card-title">Dasar Arduino Uno</h3>
-                        <p class="card-desc">Baris program C/C++ sederhana untuk menyalakan LED secara berurutan beserta skematik Wokwi.</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Lihat Kode</a>
-                    </div>
-                </article>
-
-                <article class="module-card">
-                    <div class="card-img-placeholder" style="background-color: var(--primary-color);">Sensor Suhu DHT11</div>
-                    <div class="card-content">
-                        <h3 class="card-title">Monitoring Suhu Ruangan</h3>
-                        <p class="card-desc">Dokumentasi pembacaan data dari sensor DHT11 dan menampilkannya pada layar LCD 16x2.</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Lihat Laporan</a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- =========================================
-             HALAMAN RIWAYAT PENDIDIKAN / PROYEK (pages/karya-proyek.html)
-             ========================================= -->
-        <section id="proyek" class="section container">
-            <h2 class="section-title">Galeri Karya & Proyek</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: var(--text-light);">
-                Kolaborasi tugas akhir dan mini project selama masa pendidikan.
-            </p>
-
-            <div class="card-grid">
-                <article class="module-card">
-                    <img src="https://placehold.co/600x350/CB997E/FFFFFF?text=Website+Perpus" alt="Proyek Web" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="card-content">
-                        <h3 class="card-title">Sistem Informasi Perpustakaan</h3>
-                        <p class="card-desc">Website berbasis HTML, CSS, dan JavaScript untuk mengelola data peminjaman buku sekolah (Tugas Kelompok).</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Demo App</a>
-                    </div>
-                </article>
-
-                <article class="module-card">
-                    <img src="https://placehold.co/600x350/CB997E/FFFFFF?text=Aplikasi+Kasir" alt="Proyek Desktop" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="card-content">
-                        <h3 class="card-title">Aplikasi Kasir Sederhana</h3>
-                        <p class="card-desc">Program CLI berbasis C++ untuk menghitung total belanja dan kembalian pada kantin sekolah.</p>
-                        <a href="#" class="btn btn-outline" style="margin-left: 0;">Lihat Repo</a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- =========================================
-             HALAMAN KONTAK (pages/kontak.html)
-             ========================================= -->
-        
     </main>
 
     <!-- FOOTER -->
@@ -207,90 +69,15 @@
         <div class="container">
             <p>&copy; 2026 Portofolio Travis - Siswa Kelas XII Informatika. Dibuat untuk tugas akhir.</p>
             <div class="footer-links" style="margin-top: 10px;">
-                <a href="#beranda">Beranda</a> | 
+                <a href="index.html">Beranda</a> |
+                <a href="pages/tentang.html">Tentang Saya</a> |
+                <a href="pages/pencapaian.html">Pencapaian</a> |
                 <a href="https://github.com" target="_blank">GitHub</a> | 
                 <a href="https://linkedin.com" target="_blank">LinkedIn</a>
             </div>
         </div>
     </footer>
 
-    <!-- LOGIKA JAVASCRIPT (Single Page Application Simulation) -->
-    <script>
-        // Logika Navigasi Halaman
-        const navLinks = document.querySelectorAll('.nav-link');
-        const sections = document.querySelectorAll('.section');
-        const mobileMenuBtn = document.getElementById('mobile-menu');
-        const navList = document.getElementById('nav-list');
-
-        // Fungsi untuk mengganti halaman (section)
-        function changePage(targetId) {
-            // Hilangkan class aktif di semua nav link dan section
-            navLinks.forEach(link => link.classList.remove('active-link'));
-            sections.forEach(sec => sec.classList.remove('active'));
-
-            // Tambahkan class aktif pada target
-            const activeNav = document.querySelector(`.nav-link[href="${targetId}"]`);
-            const activeSection = document.querySelector(targetId);
-
-            if(activeNav) activeNav.classList.add('active-link');
-            if(activeSection) activeSection.classList.add('active');
-
-            // Tutup menu mobile jika sedang terbuka
-            navList.classList.remove('show');
-            window.scrollTo(0, 0); // Gulir ke atas
-        }
-
-        // Tangkap klik pada setiap tautan navigasi
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                changePage(targetId);
-                // Update URL tanpa reload
-                history.pushState(null, null, targetId);
-            });
-        });
-
-        // Tangkap event saat user menekan tombol Back/Forward di browser
-        window.addEventListener('popstate', () => {
-            let hash = window.location.hash || '#beranda';
-            changePage(hash);
-        });
-
-        // Tampilkan halaman yang benar saat pertama kali dimuat
-        window.addEventListener('load', () => {
-            let hash = window.location.hash || '#beranda';
-            changePage(hash);
-        });
-
-        // Logika Toggle Menu Mobile
-        mobileMenuBtn.addEventListener('click', () => {
-            navList.classList.toggle('show');
-        });
-
-        // Logika Formulir (Mengganti alert dengan Notifikasi Visual)
-        const contactForm = document.getElementById('contactForm');
-        const formMessage = document.getElementById('form-message');
-
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault(); // Cegah reload halaman
-            
-            // Ambil data (opsional, untuk simulasi)
-            const nama = document.getElementById('nama').value;
-            
-            // Tampilkan pesan sukses
-            formMessage.textContent = `Terima kasih ${nama}, pesan Anda telah berhasil terkirim!`;
-            formMessage.className = 'msg-success';
-            formMessage.style.display = 'block';
-
-            // Reset formulir
-            contactForm.reset();
-
-            // Sembunyikan pesan setelah 4 detik
-            setTimeout(() => {
-                formMessage.style.display = 'none';
-            }, 4000);
-        });
-    </script>
+    <script src="Assets/js/script.js"></script>
 </body>
 </html>
